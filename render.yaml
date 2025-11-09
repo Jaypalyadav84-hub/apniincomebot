@@ -1,6 +1,6 @@
 services:
   - type: worker
-    name: apni-income-bot
+    name: apniincomebot
     env: python
     plan: free
     region: oregon
