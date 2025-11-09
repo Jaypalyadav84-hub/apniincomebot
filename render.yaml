@@ -1,0 +1,9 @@
+services:
+  - type: worker
+    name: apni-income-bot
+    env: python
+    plan: free
+    region: oregon
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python apni_income_bot.py"
+    pythonVersion: 3.10.13
